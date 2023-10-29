@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #222;
+        }
+        .timer{
+            background-color: #fff;
+            width: 350px;
+            padding: 15px;
+            border-radius: 15px;
+        }
+        button{
+            width: 50px;
+        }
+        .el{
+            margin-top: 15px;
+            height: 200px;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+    <div class="timer">
+        <h1 class="time">00:00:00</h1>
+        <button class="start">start</button>
+        <button class="stop">stop</button>
+        <button class="reset">reset</button>
+        <button class="lap">lap</button>
+        <div class="el">
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
